@@ -13,7 +13,7 @@
 	<div class="entry-content">
 		<?php get_template_part( 'template-parts/excerpt/excerpt', get_post_format() ); ?>
 
-		<div>
+		<div class="text-center">
 			<a href="<?php the_permalink(); ?>" class="button">Continue Reading</a>
 		</div>
 	</div><!-- .entry-content -->
