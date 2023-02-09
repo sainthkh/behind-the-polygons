@@ -20,13 +20,17 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class("bg-black text-white"); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'twentytwentyone' ); ?></a>
 
 	<?php get_template_part( 'template-parts/header/site-header' ); ?>
 
-	<div id="content" class="site-content">
+	<div class="flex justify-center mb-6">
+		<div class="w-40 border-t-4 border-white"></div>
+	</div>
+
+	<div id="content" class="site-content min-h-screen">
 		<div id="primary" class="content-area">
-			<main id="main" class="site-main">
+			<main id="main" class="site-main flex justify-center">

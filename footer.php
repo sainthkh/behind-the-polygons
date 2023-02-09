@@ -11,7 +11,7 @@
 		</div><!-- #primary -->
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer">
+	<footer id="colophon" class="site-footer mt-8 text-center border-t-2 border-white py-4">
 		<div class="site-info">
 			<div class="site-name">
 				<?php if ( has_custom_logo() ) : ?>
