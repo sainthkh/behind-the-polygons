@@ -5,7 +5,10 @@ module.exports = {
     extend: {
       width: {
         '150': '37.5rem',
-      }
+      },
+      margin: {
+        '40': '10rem',
+      },
     },
     colors: {
       black: '#131312',

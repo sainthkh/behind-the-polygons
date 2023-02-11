@@ -32,5 +32,5 @@
 	</div>
 
 	<div id="content" class="site-content min-h-screen">
-		<div id="primary" class="content-area">
-			<main id="main" class="site-main flex justify-center">
+		<div id="primary" class="content-area flex justify-center">
+			<main id="main" class="site-main flex flex-col w-150">
